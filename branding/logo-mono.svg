@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="XI monochrome logo">
+  <!-- Monochrome variant for token logo / favicon — pure black + white, scales down well -->
+  <circle cx="200" cy="200" r="190" fill="#0A0A0A"/>
+
+  <!-- Five dots -->
+  <g fill="#FFFFFF">
+    <circle cx="120" cy="55" r="4"/>
+    <circle cx="160" cy="44" r="4"/>
+    <circle cx="200" cy="40" r="4"/>
+    <circle cx="240" cy="44" r="4"/>
+    <circle cx="280" cy="55" r="4"/>
+  </g>
+
+  <!-- XI -->
+  <g font-family="'Trajan Pro', 'Cinzel', 'Times New Roman', serif" font-weight="700" text-anchor="middle" fill="#FFFFFF">
+    <text x="200" y="270" font-size="220" letter-spacing="-2">XI</text>
+  </g>
+</svg>

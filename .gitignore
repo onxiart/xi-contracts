@@ -1,0 +1,20 @@
+# Foundry
+out/
+cache/
+broadcast/
+lib/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Coverage
+lcov.info
+coverage/

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="180" height="180" role="img" aria-label="XI apple touch icon">
+  <!-- Apple Touch Icon: 180×180, rounded square (iOS auto-applies corner radius,
+       but we draw it explicitly for predictability across home-screen contexts). -->
+  <defs>
+    <linearGradient id="atiGold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E6C156"/>
+      <stop offset="100%" stop-color="#A0801A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Black rounded-square background -->
+  <rect x="0" y="0" width="180" height="180" rx="40" ry="40" fill="#0A0A0A"/>
+
+  <!-- Gold XI -->
+  <text x="90" y="125" font-family="'Trajan Pro', 'Cinzel', 'Times New Roman', serif"
+        font-weight="900" font-size="110" fill="url(#atiGold)" text-anchor="middle"
+        letter-spacing="-2">XI</text>
+</svg>

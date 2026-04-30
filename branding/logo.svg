@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="XI logo">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E6C156"/>
+      <stop offset="50%" stop-color="#C9A227"/>
+      <stop offset="100%" stop-color="#A0801A"/>
+    </linearGradient>
+    <filter id="emboss">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1"/>
+      <feSpecularLighting result="spec" specularExponent="20" lighting-color="#fff8d6">
+        <fePointLight x="100" y="50" z="200"/>
+      </feSpecularLighting>
+      <feComposite in="spec" in2="SourceAlpha" operator="in" result="specOut"/>
+      <feComposite in="SourceGraphic" in2="specOut" operator="arithmetic" k1="0" k2="1" k3="1" k4="0"/>
+    </filter>
+  </defs>
+
+  <!-- Background disc -->
+  <circle cx="200" cy="200" r="190" fill="#0A0A0A"/>
+  <circle cx="200" cy="200" r="186" fill="none" stroke="url(#goldGrad)" stroke-width="2" opacity="0.7"/>
+
+  <!-- Inner ring (subtle) -->
+  <circle cx="200" cy="200" r="170" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+
+  <!-- Five dots (top arc) — represents 5-copy max ceiling -->
+  <g fill="url(#goldGrad)">
+    <circle cx="120" cy="55" r="4"/>
+    <circle cx="160" cy="44" r="4"/>
+    <circle cx="200" cy="40" r="4"/>
+    <circle cx="240" cy="44" r="4"/>
+    <circle cx="280" cy="55" r="4"/>
+  </g>
+
+  <!-- Roman numeral XI — main glyph, classic engraved feel -->
+  <g font-family="'Trajan Pro', 'Cinzel', 'Times New Roman', serif" font-weight="700" text-anchor="middle">
+    <text x="200" y="260" font-size="200" fill="url(#goldGrad)" letter-spacing="-2">XI</text>
+  </g>
+
+  <!-- Bottom tagline -->
+  <g font-family="'JetBrains Mono', 'Courier New', monospace" font-size="11" fill="#888" text-anchor="middle" letter-spacing="3">
+    <text x="200" y="335">FOREVER FORWARD</text>
+    <text x="200" y="355">NEVER BACKWARD</text>
+  </g>
+</svg>

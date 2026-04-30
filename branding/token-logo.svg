@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="XI token logo">
+  <!--
+    XI token logo. Optimized for 256x256 token icon use (CMC, Coingecko, wallet display).
+    Uses simple geometry that survives downscaling to 32x32.
+  -->
+  <defs>
+    <linearGradient id="tokGold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E6C156"/>
+      <stop offset="100%" stop-color="#A0801A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Coin shape: black disc with gold rim -->
+  <circle cx="128" cy="128" r="124" fill="#0A0A0A"/>
+  <circle cx="128" cy="128" r="120" fill="none" stroke="url(#tokGold)" stroke-width="4"/>
+
+  <!-- XI: bold, centered, scales to 32x32 cleanly -->
+  <g font-family="'Trajan Pro', 'Cinzel', 'Times New Roman', serif" font-weight="900" text-anchor="middle">
+    <text x="128" y="172" font-size="140" fill="url(#tokGold)" letter-spacing="-2">XI</text>
+  </g>
+</svg>
